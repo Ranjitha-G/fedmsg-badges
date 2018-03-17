@@ -1,3 +1,6 @@
+
+# The fedmsg code is referenced from http://threebean.org/presentations/fedmsg-flock14
+
 import fedmsg
 import fedmsg.meta
 import pprint
