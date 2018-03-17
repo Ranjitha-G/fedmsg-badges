@@ -49,4 +49,4 @@ for name, endpoint, topic, msg in fedmsg.tail_messages():
     subtitle = fedmsg.meta.msg2subtitle(msg, **config)
     link = fedmsg.meta.msg2link(msg, **config)
 
-#    sck.send('PRIVMSG ' + channel + '|' + nick + ' :' + subtitle + ". Congratulations. Checkout the badges here:" + link + '\r\n')
+    sck.send('PRIVMSG ' + channel + '|' + nick + ' :' + subtitle + ". Congratulations. Checkout the badges here:" + link + '\r\n')
